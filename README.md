@@ -68,3 +68,12 @@ Suppose Sarah likes the sound of [*Tile and Marble Setters*](https://blooming-ri
 #### Feedback
 
 Please let us know what you think and what more you would like to see!
+
+#### People 
+
+- [Martin Daniel](https://twitter.com/martindaniel4)
+- [Milan Shen ](https://twitter.com/shenmilan)
+- [Alok Gupta](https://twitter.com/alokgupta83)
+- [Kelsey Jiang](https://twitter.com/evo2data)
+- Katie Lin
+- Jason Goodman

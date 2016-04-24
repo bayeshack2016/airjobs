@@ -50,7 +50,7 @@ For each pair of jobs in this skills vector space, we calculate the distance bet
 #### Output
 
 A user landing [on the front page](https://blooming-ridge-75693.herokuapp.com/) will see the entire universe of jobs:<br>
-<img src="airjobs_vizaviz_1.png" style="width:90%;height:90%;">
+<img src="airjobs_main.gif" style="width:90%;height:90%;">
 
 And then, suppose, [a carpenter](https://blooming-ridge-75693.herokuapp.com/#Rough Carpenters), called Sarah, say, is interested in similar jobs to her's then she can search for it in the left pane and see it's network of related jobs:<br>
 <img src="airjobs_vizaviz_2.png" style="width:90%;height:90%;">

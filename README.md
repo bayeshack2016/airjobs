@@ -45,7 +45,7 @@ b) employees interested in exploring **green** employment can find jobs similar 
 
 For each of the 954 jobs in the BLS database, we compute the the coordinates of the job in the 35-dimensional space of skills. These skills are designated by the BLS and include ones such as: *Reading Comprehension*, *Active Listening*, *Writing*, etc.
 
-For each pair of jobs in this skills vector space, we calculate the distance between them using the <a href="Kullback-Leibler Divergence">https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence</a> to give us a scalar. The smaller the distance (*divergence*), the more similar two jobs are in terms of the skills required to be competent in the jobs.
+For each pair of jobs in this skills vector space, we calculate the distance between them using the [Kullback-Leibler Divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence) to give us a scalar. The smaller the distance (*divergence*), the more similar two jobs are in terms of the skills required to be competent in the jobs.
 
 #### Output
 

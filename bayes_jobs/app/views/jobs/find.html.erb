@@ -1,0 +1,102 @@
+<div class="container">
+	<h1 class='title'>Find Jobs Here</h1>
+
+	<label>Skill: </label> 
+	<select id='skill'>
+	  <option value="Math">Math</option>
+	  <option value="Writing">Writing</option>
+	  <option value="Arts">Arts</option>
+	  <option value="Sports">Sports</option>
+	</select>
+	<br>
+	<label>Selected: </label>
+	<div id='skill-display'></div>
+	<br>
+	<br>
+	<label>State: </label> 
+	<select id='state'>
+	  <option value="Alabama">Alabama</option>
+	  <option value="Alaska">Alaska</option>
+	  <option value="Arizona">Arizona</option>
+	  <option value="Arkansas">Arkansas</option>
+	  <option value="California">California</option>
+	  <option value="Colorado">Colorado</option>
+	  <option value="Connecticut">Connecticut</option>
+	  <option value="Arkansas">Delaware</option>
+	  <option value="Florida">Florida</option>
+	  <option value="Georgia">Georgia</option>
+	  <option value="Hawaii">Hawaii</option>
+	  <option value="Idaho">Idaho</option>
+	  <option value="Illinois">Illinois</option>
+	  <option value="Indiana">Indiana</option>
+	  <option value="Iowa">Iowa</option>
+	  <option value="Kansas">Kansas</option>
+	  <option value="Kentucky">Kentucky</option>
+	  <option value="Louisiana">Louisiana</option>
+	  <option value="Maine">Arizona</option>
+	  <option value="Maryland">Arkansas</option>
+	  <option value="Massachusetts">Alabama</option>
+	  <option value="Michigan">Alaska</option>
+	  <option value="Minnesota">Arizona</option>
+	  <option value="Mississipi">Arkansas</option>
+	  <option value="Missouri">Missouri</option>
+	  <option value="Montana">Montana</option>
+	  <option value="Nebraska">Nebraska</option>
+	  <option value="Nevada">Nevada</option>
+	  <option value="New Hampshire">New Hampshire</option>
+	  <option value="New Jersey">New Jersey</option>
+	  <option value="New Mexico">New Mexico</option>
+	  <option value="New York">New York</option>
+	  <option value="North Carolina">North Carolina</option>
+	  <option value="North Dakota">North Dakota</option>
+	  <option value="Ohio">Ohio</option>
+	  <option value="Oklahoma">Oklahoma</option>
+	  <option value="Oregon">Oregon</option>
+	  <option value="Pennsylvania">Pennsylvania</option>
+	  <option value="Rhode Island">Rhode Island</option>
+	  <option value="South Carolina">South Carolina</option>
+	  <option value="South Dakota">South Dakota</option>
+	  <option value="Tennessee">Tennessee</option>
+	  <option value="Texas">Texas</option>
+	  <option value="Utah">Utah</option>
+	  <option value="Vermont">Vermont</option>
+	  <option value="Virginia">Virginia</option>
+	  <option value="Washington">Washington</option>
+	  <option value="West Virginia">West Virginia</option>
+	  <option value="Wisconsin">Wisconsin</option>
+	  <option value="Wyoming">Wyoming</option>
+	</select>
+	<br>
+	<label>Selected: </label>
+	<div id='state-display'></div>
+	<br>
+	<br>
+	<button>Submit</button>
+	<br>
+	<br>
+	<br>
+	<br>
+	<table style="width:50%">
+	  <tr>
+	    <td>Job Results</td>
+	    <td>Overall Score</td> 
+	    <td>Skill</td>
+	    <td>State</td>
+	  </tr>
+	</table>
+</div>
+
+<script>
+$(document).ready(function(){
+	/* display skill dynamically */
+	$("#skill").change(function(){
+		$("#skill-display").append($("#skill").val() + " ")
+	});
+
+	/* display state dynamically */
+	$("#state").change(function(){
+		$("#state-display").append($("#state").val() + " ")
+	});
+})
+
+</script>

@@ -39,6 +39,8 @@ with keywords, within individual industries, or along certain interests. However
 
 URL - <a href="https://blooming-ridge-75693.herokuapp.com/"> https://blooming-ridge-75693.herokuapp.com </a>
 
+<img src="airjobs_main.gif" style="width:90%;height:90%;">
+
 #### Motivation
 
 We worked on the <a href="http://www.bls.gov/home.htm">Bureau of Labour Statistics</a> (BLS) database to build a tool to enable job seekers to explore the whole universe of jobs in the United States of America. We want to help people with work experience to find jobs related to their current or past employment. The hope is that:<br>
@@ -55,7 +57,7 @@ For each pair of jobs in this skills vector space, we calculate the distance bet
 #### Output
 
 A user landing [on the front page](https://blooming-ridge-75693.herokuapp.com/) will see the entire universe of jobs:<br>
-<img src="airjobs_main.gif" style="width:90%;height:90%;">
+<img src="airjobs_vizaviz_1.png" style="width:90%;height:90%;">
 
 And then, suppose, [a carpenter](https://blooming-ridge-75693.herokuapp.com/#Rough Carpenters), called Sarah, say, is interested in similar jobs to her's then she can search for it in the left pane and see it's network of related jobs:<br>
 <img src="airjobs_vizaviz_2.png" style="width:90%;height:90%;">

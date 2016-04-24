@@ -18,12 +18,10 @@ The user can also input weights to express how important each piece of informati
 #### Images of App in Action
 
 The first image shows the tool in action, with some skills input into the tool.
-<img src=airjobs_01.tiff>
+<img src=airjobs_01.png>
 
 The second image shows the tool shows the tool's top recommendations given a set of input preferences.
-<img src=airjobs_02.tiff>
-
-Image 2:
+<img src=airjobs_02.png>
 
 #### Past Context
 

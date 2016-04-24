@@ -1,6 +1,11 @@
 # airjobs
 BayesHack2016 Project
 
+This repo consists of two projects : 
+
+- [AirJobs Career Explorer](https://github.com/bayeshack2016/airjobs#airjobs-career-explorer)
+- [Jobs Viz-a-viz](https://github.com/bayeshack2016/airjobs#jobs-viz-a-viz)
+
 ### AirJobs Career Explorer
 
 Are you thinking about making a career change, but you're not sure what kind of job is right for you? The AirJobs Career Explorer can help. It takes in information from job-seekers and uses a custom matching algorithm to recommend jobs that best suit each person's situation.
